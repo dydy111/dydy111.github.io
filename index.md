@@ -1,37 +1,209 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
 
-You can use the [editor on GitHub](https://github.com/dydy111/dydy111.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
 
-### Markdown
+<title>个人简历</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<meta charset=UTF-8 />
 
-```markdown
-Syntax highlighted code block
+<style type=text/css>
 
-# Header 1
-## Header 2
-### Header 3
+*{
 
-- Bulleted
-- List
+margin: 0;
 
-1. Numbered
-2. List
+padding: 0;
 
-**Bold** and _Italic_ and `Code` text
+border: none;
 
-[Link](url) and ![Image](src)
-```
+font-size: 12px;
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+}
 
-### Jekyll Themes
+#jianil{
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dydy111/dydy111.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+width: 797px;
 
-### Support or Contact
+margin: 0 auto;
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+border: solid 1px #DCDDDF;
+
+}
+
+#jianil .one{
+
+background: url(images/toubu.png);
+
+width: 797px;
+
+height: 90px;
+
+font-size: 30px;
+
+color: white;
+
+font-weight: bold;
+
+text-align: center;
+
+margin-bottom: 0;
+
+line-height: 90px;
+
+}
+
+#jianil ul{
+
+width: 771px;
+
+margin-left: 13px;
+
+margin-top: 40px;
+
+}
+
+#jianil ul li{
+
+font-size: 20.5px;
+
+background: url(images/tubia.png) no-repeat;
+
+list-style: none;
+
+text-indent:1.8em;
+
+line-height: 30px;
+
+margin-bottom: 20px;
+
+border-bottom: 1px solid #DCDDDF;
+
+}
+
+#jianil ul li.none1{
+
+border-bottom: none;
+
+}
+
+#jianil ul li p{
+
+font-size: 15px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="jianil">
+
+<div class=one>个人简历</div>
+
+<ul>
+
+<li>个人信息
+
+<p>
+
+姓名：XX#12288;
+
+性别：男#12288;
+
+籍贯：XX#12288;
+
+年龄:21#12288;
+
+</p>
+
+<p>
+
+手机：XXXXXXXXXXX#12288;
+
+院校：XXXX学院#12288;
+
+专业：XX#12288;
+
+学历：XX#12288;
+
+</p>
+
+</li>
+
+<li>教育背景
+
+<p>
+
+2014.8-2016.6nbsp;XXXX学院
+
+</p>
+
+<p>
+
+你在学习学了那些东西？
+
+</p>
+
+</li>
+
+<li>最近工作
+
+<p>
+
+2016.6-2016.12nbsp;你最近的工作公司nbsp;工作岗位
+
+</p>
+
+<p>
+
+工作内容
+
+</p>
+
+</li>
+
+<li>专业技能
+
+<p>
+
+你会什么
+
+</p>
+
+</li>
+
+<li>相关证书
+
+<p>证书1</p>
+
+<p>证书2</p>
+
+<p>证书3</p>
+
+<p>证书4</p>
+
+<p>证书5</p>
+
+</li<
+
+<li class=none1>自我评价
+
+<p>
+
+你对于自己是是怎么评价的？
+
+</p>
+
+</li>
+
+</ul>
+
+</div>
+
+</body>
+
+</html>
